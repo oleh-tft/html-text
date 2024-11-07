@@ -1,0 +1,44 @@
+body { 
+    font-family: serif; 
+} 
+h1 { 
+    font-family: sans-serif; 
+    background-color: lightgray; 
+    padding: 20px; 
+    text-align: center; 
+} 
+h3 { 
+    text-decoration: underline; 
+} 
+#first p { 
+    font-size: 30px; 
+    font-style: italic; 
+    background-color: lightgreen; 
+} 
+#second p { 
+    font-size: 24px; 
+    font-weight: bold; 
+    background-color: aqua; 
+} 
+#third p { 
+    background-color: pink; 
+    text-indent: 50px;
+} 
+#second h3 { 
+    word-spacing: 40px; 
+} 
+#third h3 { 
+    letter-spacing: 10px; 
+    word-spacing: 10px; 
+}
+body div div { 
+    width: 50px;
+    padding: 20px; 
+    background-color: rgb(172, 172, 172); 
+    display: inline-block; 
+} 
+#third div {
+    width: 70px;
+    padding-right: 0px;
+    text-align: right;
+}
