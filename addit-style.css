@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #f0f0f0;
+    height: 100px;
+}
+#header-main {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15%;
+    height: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    background-color: #2e2c2d;
+    width: 190px;
+    height: 100%;
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+}
+#title {
+    margin-left: 10px;
+    font-size: 26px;
+    display: inline-block;
+    line-height: 80px;
+}
+#title-r {
+    margin-right: 10px;
+    font-size: 10px;
+    display: inline-block;
+    line-height: 80px;
+}
+#vline {
+    background-color: rgb(66, 66, 66);
+    margin-top: 10px;
+    width: 2px;
+    height: 60px;
+}
+#navigation {
+    width: 280px;
+    display: flex;
+    font-size: 0px;
+    justify-content: right;
+}
+.button {
+    display: inline-block;
+    color: rgb(150, 150, 150);
+    padding: 0px 5px 0px 5px;
+    height: 80px;
+    line-height: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button:hover {
+    color: #abd4b4;
+}
+#main {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-cut {
+    max-height: 310px;
+    overflow: hidden;
+}
+.img-cut img {
+    width: 420px;
+}
+.option {
+    width: 420px;
+    height: 310px;
+}
+.opt-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-content {
+    /* background-color: red; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.small {
+    font-size: 12px;
+}
+.box-content img {
+    width: 48px;
+    height: 48px;
+}
+.hline {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#trad {
+    background: #abd4b4;
+}
+#vegan {
+    background: #86cdd7;
+}
+#offers {
+    background: #fee5ba;
+}
